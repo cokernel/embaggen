@@ -1,0 +1,7 @@
+require 'rubygems'
+require 'kdl/embaggen'
+
+src_dir, bag_dir = ARGV[0], ARGV[1]
+bagger = KDL::Embaggen.new bag_dir
+bagger.add_directory src_dir
+bagger.manifest!

@@ -11,7 +11,7 @@ EMBAGGEN_SPEC = Gem::Specification.new do |spec|
 
   spec.add_dependency 'bagit'
 
-  spec.files = %w(README.md LICENSE.txt embaggen.gemspec) + Dir["lib/**/*.rb"] + Dir["spec/**/*_spec.rb"]
+  spec.files = %w(README.md LICENSE.txt embaggen.gemspec) + Dir["lib/**/*.rb"] + Dir["spec/**/*.rb"]
 end
 
 

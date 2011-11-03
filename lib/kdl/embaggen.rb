@@ -1,4 +1,5 @@
-require 'spec/spec_helper'
+require 'backports'
+require_relative '../../spec/spec_helper'
 
 module KDL
   class Embaggen < BagIt::Bag
