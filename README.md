@@ -1,25 +1,20 @@
 Embaggen
 ========
 
-Embaggen is a component of the Presence repository system
-being built at the University of Kentucky.  It supports a
+Embaggen is a component of the repository system being 
+built at the University of Kentucky.  It supports a
 microservice which consumes batches of loose files and 
 wraps them in a BagIt bag.  It uses Francesco Lazzarino's
 Ruby BagIt library to do all the real work.
-
-Embaggen consists of a bit of Ruby, ready to be built into
-a local gem, plus a small script to drive it.
 
 Installation
 ------------
 
 1. Clone into embaggen.
 
-2. Build and install the gem.
+2. gem build embaggen.spec
 
-3. Copy bin/embaggen somewhere in your PATH.
-
-4. [to be added]
+3. gem install embaggen-0.0.1.gem
 
 Example: bagging and tagging by hand
 ------------------------------------
@@ -29,10 +24,10 @@ Example: bagging and tagging by hand
 TODO
 ----
 
-* Add sample Archivematica configuration files
+* Put gem on RubyGems
 
 ---
 
-Copyright © 2011, [Michael Slone](mailto:m.slone@uky.edu).
+Copyright © 2011-2013, [Michael Slone](mailto:m.slone@uky.edu).
 
 See LICENSE.txt for terms.

@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
-require 'rubygems'
-require 'kdl/embaggen'
+require 'kdl'
 
 src_dir, bag_dir = ARGV[0], ARGV[1]
 bagger = KDL::Embaggen.new bag_dir
