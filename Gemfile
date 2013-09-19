@@ -1,5 +1,3 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "bagit"
-gem "semver"
-gem "backports"
+gemspec
